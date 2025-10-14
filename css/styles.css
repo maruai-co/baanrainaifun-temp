@@ -186,6 +186,11 @@ p {
   object-fit: cover;
 }
 
+/* Specific positioning for café card image */
+.card img[src*="landing-card-cafe"] {
+  object-position: center 75%; /* Moves the crop up to show upper portion */
+}
+
 .card-content {
   padding: 1.5rem;
 }
