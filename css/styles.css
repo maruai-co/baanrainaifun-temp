@@ -193,6 +193,11 @@ p {
   object-position: center 75%; /* Moves the crop up to show upper portion */
 }
 
+/* Adjust crop position for the "after" image */
+.before-after img[src*="our-story-after"] {
+  object-position: center 25%; /* Shows lower portion of the image */
+}
+
 .card-content {
   padding: 1.5rem;
   display: flex;
