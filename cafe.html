@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Café & Restaurant | Baan Rai Nai Fun</title>
-  <meta name="description" content="Enjoy fresh, mindful Thai cuisine at Baan Rai Nai Fun café & restaurant. Vegan and vegetarian home cooking with organic ingredients from our garden.">
+  <title>Café & Restaurant | Baanrainaifun</title>
+  <meta name="description" content="Enjoy fresh, mindful Thai cuisine at Baanrainaifun café & restaurant. Vegan and vegetarian home cooking with organic ingredients from our garden.">
   
   <!-- Open Graph tags -->
-  <meta property="og:title" content="Café & Restaurant | Baan Rai Nai Fun">
-  <meta property="og:description" content="Enjoy fresh, mindful Thai cuisine at Baan Rai Nai Fun café & restaurant. Vegan and vegetarian home cooking with organic ingredients from our garden.">
+  <meta property="og:title" content="Café & Restaurant | Baanrainaifun">
+  <meta property="og:description" content="Enjoy fresh, mindful Thai cuisine at Baanrainaifun café & restaurant. Vegan and vegetarian home cooking with organic ingredients from our garden.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://maruai-co.github.io/baanrainaifun-temp/cafe.html">
-  <meta property="og:image" content="https://maruai-co.github.io/baanrainaifun-temp/assets/images/best-seller-1.jpg">
+  <meta property="og:image" content="https://maruai-co.github.io/baanrainaifun-temp/assets/images/best-seller-1.png">
   
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -25,7 +25,7 @@
   <!-- Header with navigation -->
   <header>
     <nav>
-      <a href="index.html" class="logo">Baan Rai Nai Fun</a>
+      <a href="index.html" class="logo">Baanrainaifun</a>
       <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation menu">☰</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
@@ -42,20 +42,37 @@
 
     <!-- Intro paragraph -->
     <section>
-      <p>What began as a small café serving healthy drinks, coffee, and homemade baked goods has grown into a restaurant. Our restaurant offers Thai-style vegan and vegetarian home cooking, prepared with care and a love for simple, wholesome food. We place great importance on the ingredients we use and believe in being honest with our guests about where they come from. Some seasonal produce and plants are organically grown right here at Baan Rai Nai Fun. For ingredients that are not organic, we handle them with extra care — thoroughly rinsing and washing before preparing meal. Every dish reflects our philosophy: fresh, mindful, and nourishing food, made with sincerity.</p>
+      <p>What began as a small café serving healthy drinks, coffee, and homemade baked goods has grown into a restaurant. Our restaurant offers Thai-style vegan and vegetarian home cooking, prepared with care and a love for simple, wholesome food. We place great importance on the ingredients we use and believe in being honest with our guests about where they come from. Some seasonal produce and plants are organically grown right here at Baanrainaifun. For ingredients that are not organic, we handle them with extra care — thoroughly rinsing and washing before preparing meal. Every dish reflects our philosophy: fresh, mindful, and nourishing food, made with sincerity.</p>
     </section>
 
-    <!-- Feature image -->
-    <section style="text-align: center; margin: 2rem 0;">
-      <figure>
-        <img src="assets/images/umami-sauce.jpg" 
-             alt="Homemade umami sauce - a signature condiment at Baan Rai Nai Fun" 
+    <!-- Umami showcase section -->
+    <section class="umami-showcase" style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; align-items: center; margin: 3rem 0;">
+      <figure style="text-align: center;">
+        <img src="assets/images/umami-1.jpg" 
+             alt="Homemade umami sauce ingredients" 
              loading="lazy"
-             width="400" 
-             height="300"
-             style="border-radius: var(--border-radius); box-shadow: var(--shadow);">
-        <figcaption style="margin-top: 0.5rem; color: var(--text-light); font-style: italic;">Umami Sauce</figcaption>
+             width="300" 
+             height="auto"
+             style="width: 100%; height: auto; border-radius: var(--border-radius); box-shadow: var(--shadow);">
       </figure>
+      
+      <figure style="text-align: center;">
+        <img src="assets/images/umami-2.webp" 
+             alt="Final umami sauce product" 
+             loading="lazy"
+             width="300" 
+             height="auto"
+             style="width: 100%; height: auto; border-radius: var(--border-radius); box-shadow: var(--shadow);">
+      </figure>
+      
+      <div style="text-align: center;">
+        <ul style="list-style: none; font-size: 1.2rem; font-weight: 600; color: var(--primary-green); line-height: 2;">
+          <li style="margin-bottom: 1rem;">✓ No MSG</li>
+          <li style="margin-bottom: 1rem;">✓ No Preservatives</li>
+          <li style="margin-bottom: 1rem;">✓ No Artificial Flavours</li>
+          <li style="margin-bottom: 1rem;">✓ No Artificial Colors</li>
+        </ul>
+      </div>
     </section>
 
     <!-- Best Sellers section -->
@@ -75,7 +92,7 @@
         </article>
 
         <article class="menu-item">
-          <img src="assets/images/best-seller-2.jpg" 
+          <img src="assets/images/best-seller-2.png" 
                alt="Green Curry - Thai green curry with vegetables and aromatic herbs" 
                loading="lazy"
                width="280" 
@@ -87,7 +104,7 @@
         </article>
 
         <article class="menu-item">
-          <img src="assets/images/best-seller-3.jpg" 
+          <img src="assets/images/best-seller-3.png" 
                alt="Pad Thai - Stir-fried rice noodles with vegetables and traditional seasonings" 
                loading="lazy"
                width="280" 
@@ -109,8 +126,8 @@
                alt="Locally roasted coffee served in our garden café" 
                loading="lazy"
                width="200" 
-               height="200">
-          <figcaption>Garden Coffee</figcaption>
+               height="auto"
+               style="width: 100%; height: auto; border-radius: var(--border-radius); box-shadow: var(--shadow);">
         </figure>
 
         <figure>
@@ -118,31 +135,14 @@
                alt="Fresh herbal tea made from herbs grown in our garden" 
                loading="lazy"
                width="200" 
-               height="200">
-          <figcaption>Herbal Garden Tea</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/images/signature-drink-1.jpg" 
-               alt="Refreshing fruit smoothie made with seasonal organic fruits" 
-               loading="lazy"
-               width="200" 
-               height="200">
-          <figcaption>Seasonal Smoothie</figcaption>
-        </figure>
-
-        <figure>
-          <img src="assets/images/signature-drink-2.jpg" 
-               alt="Traditional Thai iced tea served in our garden setting" 
-               loading="lazy"
-               width="200" 
-               height="200">
-          <figcaption>Thai Iced Tea</figcaption>
+               height="auto"
+               style="width: 100%; height: auto; border-radius: var(--border-radius); box-shadow: var(--shadow);">
         </figure>
       </div>
     </section>
 
     <!-- Menu PDF link -->
+    <!-- 
     <section style="text-align: center; margin: 3rem 0;">
       <a href="assets/pdf/menu.pdf" 
          class="btn btn-secondary" 
@@ -152,14 +152,18 @@
         View Full Menu (PDF)
       </a>
     </section>
+    -->
   </main>
 
   <!-- Footer -->
   <footer>
-    <p><strong>Baan Rai Nai Fun</strong></p>
-    <p>Chiang Mai, Thailand</p>
-    <p>Opening Hours: Daily 8:00 AM - 6:00 PM</p>
-    <p>Contact: info@baanrainaifun.com | +66 XX XXX XXXX</p>
+    <p><strong>Baanrainaifun</strong></p>
+    <p>📞 +666 62 942 4799</p>
+    <p>✉️ baanrainaifuncnx@gmail.com</p>
+    <p>🌐 <a href="https://baanrainaifuncnx.com" target="_blank" rel="noopener">baanrainaifuncnx.com</a></p>
+    <p>📘 <a href="https://facebook.com/baanrainaifunorganicgarden" target="_blank" rel="noopener">facebook.com/baanrainaifunorganicgarden</a></p>
+    <p>💬 LINE: 0629424799</p>
+    <p>📍 Chiang Mai, Thailand, Chiang Mai 50230</p>
   </footer>
 
   <script src="js/main.js"></script>
