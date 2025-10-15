@@ -386,10 +386,37 @@ p {
 /* Umami showcase section */
 .umami-showcase {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   align-items: center;
   margin: 3rem 0;
+}
+
+.umami-showcase figure {
+  text-align: center;
+}
+
+.umami-showcase img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.umami-features {
+  text-align: center;
+}
+
+.umami-features ul {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-green);
+  line-height: 2;
+}
+
+.umami-features li {
+  margin-bottom: 1rem;
 }
 
 /* Signature drinks gallery */
@@ -535,6 +562,7 @@ footer a:focus {
 
   .umami-showcase {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
     text-align: center;
   }
 }
@@ -550,6 +578,11 @@ footer a:focus {
 
   .cards-container {
     grid-template-columns: 1fr;
+  }
+
+  .umami-showcase {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
