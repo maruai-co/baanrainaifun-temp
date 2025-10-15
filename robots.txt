@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maruai-co.github.io/baanrainaifun-temp/sitemap.xml
+Sitemap: https://baanrainaifuncnx.com/sitemap.xml
